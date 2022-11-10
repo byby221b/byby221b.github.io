@@ -79,18 +79,36 @@ a:hover {
 	text-decoration: none;
 }
 
-div.menu-category {
+.menu-category {
 	border-bottom: 1px solid gray;
 	margin-top: 0.8em;
 	padding-top: 0.2em;
 	padding-bottom: 0.1em;
+    font-size: 1.3em;
 	font-weight: bold;
+    text-align: center;
 }
 
-div.menu-item {
+@media (max-width: 1024px) {
+.menu-category{
+    font-size: 2.3rem;
+}
+}
+
+.menu-item {
 	padding-left: 16px;
 	text-indent: -16px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
 }
+
+@media (max-width: 1024px) {
+.menu-item{
+    font-size: 2rem;
+}
+}
+
 
 div#toptitle {
 	padding-bottom: 0.2em;
@@ -130,7 +148,13 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 165%;
+	font-size: 3rem;
+}
+
+@media (max-width: 1024px) {
+h1{
+    font-size: 4rem;
+}
 }
 
 h2 {
@@ -175,6 +199,13 @@ div#footer-text {
 	float: left;
 	padding-bottom: 8px;
 }
+
+@media (max-width: 1024px) {
+#footer{
+    font-size: large;
+}
+}
+
 
 ul, ol, dl {
 	margin-top: 0.2em;
@@ -364,20 +395,42 @@ img {
     border: none;
 }
 
-table.imgtable{
+.imgtable{
     border: none;
 }
 
 #imgbox {
-    width:50%;
     text-align:center;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3em;
+    padding-top: 3em;
 }
 
 #info{
     text-align: left;
     border: none;
-    width: 50%;
+    font-size: 2rem;
+}
+
+@media (max-width: 1024px) {
+#info{
+    font-size: 3.5rem;
+}
+}
+
+.section{
+    text-align: left;
+    border: none;
+    font-size: 1.8rem;
+}
+
+@media (max-width: 1024px) {
+.section{
+    font-size: 3.5rem;
+}
 }
 
 span.icon{
@@ -389,4 +442,8 @@ span.icon{
     border-radius: 10px;
     box-shadow: 4px 5px #ccccce87;
     margin-top: 10px;
+}
+
+.row-same-height {
+  display: flex;
 }
