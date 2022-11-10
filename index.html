@@ -41,7 +41,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-12 col-md-6 imgtable" valign="right" frame="void" rules="none" id="imgbox">
-                                <img src="./index_files/Profile.png" border="0" alt="Yong Bai" width="90%" frame="void">
+                                <img src="./index_files/Profile.jpg" border="0" alt="Yong Bai" width="90%" frame="void">
                         </div>
                         <div class="col-sm-12 col-md-6" id="info">
                                     <p>
@@ -54,8 +54,11 @@
                                         <a href="https://www.nju.edu.cn/" target="_blank">Nanjing University</a>, Nanjing, China<br /><br />
                                         Supervisor: Professor <a href="https://cs.nju.edu.cn/zhouzh/" target="_blank"><b>Zhi-Hua Zhou</b></a>
                                         <br /><br />
+<!--
                                         Email: <span id='email1'></span> or
                                         <span id='email2'></span>
+-->
+                                        <span id='email'></span>
                                         <br /><br />
                                         Laboratory: Computer Science Building, Xianlin Campus of Nanjing University
                                     </p>
@@ -306,9 +309,9 @@
                 return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
             });
         };
-
-        document.getElementById("email1").innerHTML = email1.rot13();
-        document.getElementById("email2").innerHTML = email2.rot13();
+        document.getElementById("email").innerHTML = "Email: " + email1.rot13() + " or " + email2.rot13();
+//        document.getElementById("email1").innerHTML = email1.rot13();
+//        document.getElementById("email2").innerHTML = email2.rot13();
     </script>
 
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
