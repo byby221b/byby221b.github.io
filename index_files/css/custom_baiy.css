@@ -28,7 +28,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 40px 20px;
 }
@@ -281,6 +281,7 @@ body {
 #Publications ul li::before {
     content: '📄';
     font-size: 20px;
+    position: relative;
 }
 
 #Publications ul li:hover {
@@ -318,7 +319,7 @@ body {
     align-items: center;
     padding: 15px 20px;
     margin: 10px 0;
-    background: var(--bg-light);
+    /* background: var(--bg-light); */
     border-radius: 12px;
     transition: all 0.3s ease;
 }
@@ -439,3 +440,4 @@ body {
     content: '◦';
     font-size: 16px;
 }
+
