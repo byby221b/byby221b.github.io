@@ -28,28 +28,23 @@
                     
                     <div class="menu-item"><a href="#About Me">Biography</a></div>
                     <div class="menu-item"><a href="#Publications">Publications</a></div>
-                    <div class="menu-item"><a href="#Experience">Intership Experience</a></div>
+                    <div class="menu-item"><a href="#Experience">Internship Experience</a></div>
                     <div class="menu-item"><a href="#TA">Teaching Assistant</a></div>
                     <div class="menu-item"><a href="#Awards">Awards &amp; Honors</a></div>
                     <div class="menu-item"><a href="#Hobbies">Hobbies</a></div>
                     
-                    <div class="menu-item">
-                        <span class="icon" title="Github">
-                            <a href="https://github.com/byby221b" target="_blank">
-                                <img src="index_files/icons/github.svg" alt="Github">
-                            </a>
-                        </span>
-                        <span class="icon" title="LAMDA Homepage">
-                            <a href="http://www.lamda.nju.edu.cn/baiy/" target="_blank">
-                                <img src="index_files/icons/homepage.svg" alt="Homepage">
-                            </a>
-                        </span>
-                        <span class="icon" title="LinkedIn">
-                            <a href="https://www.linkedin.com/in/yong-bai-75aa8a155/" target="_blank">
-                                <img src="index_files/icons/linkedin.svg" alt="LinkedIn">
-                            </a>
-                        </span>
-                    </div>
+                    <!-- <div class="social-links">
+                        <a href="https://github.com/byby221b" target="_blank" rel="noopener noreferrer" title="Github">
+                            <img src="index_files/icons/github.svg" alt="Github">
+                        </a>
+                        <a href="http://www.lamda.nju.edu.cn/baiy/" target="_blank" rel="noopener noreferrer" title="LAMDA Homepage">
+                            <img src="index_files/icons/homepage.svg" alt="Homepage">
+                        </a>
+                        <a href="https://www.linkedin.com/in/yong-bai-75aa8a155/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                            <img src="index_files/icons/linkedin.svg" alt="LinkedIn">
+                        </a>
+                        
+                    </div> -->
                     
                     <div class="menu-item">
                         <a href="https://clustrmaps.com/site/1braw" title="Visit tracker" target="_blank">
@@ -58,121 +53,395 @@
                     </div>
                 </div>
             </div>
-
+            
             <!-- Main Content -->
             <div class="col-sm-12 col-md-9">
                 <div id="layout-content">
                     <!-- Title -->
-                    <div class="row" id="toptitle">
-                        <div class="col-sm-12 col-md-12">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12" id="toptitle">
                             <h1>Welcome to Yong Bai's Homepage :-)</h1>
                         </div>
                     </div>
 
-                    <!-- Profile -->
-                    <div class="row">
-                        <div class="col-sm-12 col-md-5 imgtable" id="imgbox">
-                            <img src="./index_files/imgs/Profile.jpg" alt="Yong Bai">
+                    <!-- Profile Card -->
+                    <div class="profile-card">
+                        <div class="profile-left">
+                            <img src="./index_files/imgs/Profile.jpg" alt="Yong Bai" class="profile-photo">
+                            <div class="profile-social">
+                                <a href="https://scholar.google.com/citations?user=F_QRciEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </a>
+                                <a href="https://github.com/byby221b" target="_blank" rel="noopener noreferrer" title="Github">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <!-- <a href="https://www.linkedin.com/in/yong-bai-75aa8a155/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a> -->
+                                <a href="http://www.lamda.nju.edu.cn/baiy/" target="_blank" rel="noopener noreferrer" title="Homepage">
+                                    <i class="fas fa-home"></i>
+                                </a>
+                            </div>
                         </div>
-                        <div class="col-sm-12 col-md-7" id="info">
-                            <p>
-                                <b>
-                                    <font size="+4" face="Kaiti">白勇</font>
-                                </b><br />
-                                Algorithm Engineer, <a href="https://www.kuaishou.com/" target="_blank">Kuaishou</a><br />
-                                Beijing, China<br /><br />
-                                Supervisor: Prof. <a href="https://cs.nju.edu.cn/zhouzh/" target="_blank"><b>Zhi-Hua Zhou</b></a>
-                                <br /><br />
-                                <span id='email'></span>
-                                <br /><br />
-                            </p>
+                        <div class="profile-right">
+                            <span class="chinese-name">白勇</span>
+                            <div class="info-lines">
+                                <p class="info-line">
+                                    <i class="fas fa-briefcase"></i>
+                                    Algorithm Engineer, 
+                                    <a href="https://www.kuaishou.com/" target="_blank" rel="noopener noreferrer">Kuaishou</a>
+                                </p>
+                                <p class="info-line">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Beijing, China
+                                </p>
+                                <p class="info-line">
+                                    <i class="fas fa-user-tie"></i>
+                                    Supervisor: Prof. 
+                                    <a href="https://cs.nju.edu.cn/zhouzh/" target="_blank" rel="noopener noreferrer">Zhi-Hua Zhou</a>
+                                </p>
+                                <p class="info-line">
+                                    <i class="fas fa-envelope"></i>
+                                    <span id="email"></span>
+                                </p>
+                            </div>
                         </div>
                     </div>
 
-                    <!-- News -->
-                    <div class="section" id="News">
-                        <p>
-                            <b>If you would like to befriend me, please don't hesitate to send me an email! :-)</b>
-                        </p>
+                    <div class="info-cta">
+                        <!-- <i class="fas fa-handshake"></i> -->
+                        If you would like to befriend me, please don't hesitate to send me an email! :-)
                     </div>
-
-                    <!-- Biography -->
+                   <!-- Biography -->
                     <div class="section" id="About Me">
                         <h2>Biography</h2>
-                        <ul>
-                            <li>
-                                <p><b>2023-</b>.
-                                I am currently employed as an Algorithm Engineer at Kuaishou, where my primary responsibility lies in the development of cutting-edge algorithms within the realm of computational advertising.</p>
-                            </li>
-                            <li>
-                                <p><b>2020-2023</b>.
-                                    I obtained my M.Sc. degree from the <a href="https://ai.nju.edu.cn/" target="_blank">School of Artificial Intelligence</a> at <a href="https://www.nju.edu.cn/" target="_blank">Nanjing University (NJU)</a>, where I am very fortunate to be a member of <a href="http://www.lamda.nju.edu.cn/baiy" target="_blank"><b>LAMDA</b></a> Group and supervised by Prof. <a href="https://cs.nju.edu.cn/zhouzh/" target="_blank"><b>Zhi-Hua Zhou</b></a>.<br> 
-                                    My research interests include machine learning and data mining, especially:
-                                    <ul>
-                                        <li>weakly supervised learning</li>    
-                                        <li>machine learning under online distribution shift</li>
-                                    </ul> 
-                                </p>
-                            </li>
-                            <li>
-                                <p><b>2016-2020</b>.
-                                    I obtained my B.Sc. degree in the <a href="https://scse.buaa.edu.cn/" target="_blank">School of Computer Science and Engineering</a> from <a href="https://www.buaa.edu.cn/" target="_blank">Beihang University (BUAA)</a> in June 2020, achieving a remarkable GPA of 3.86, which placed me in the top 1%. Then, I was admitted to pursue M.Sc. degree at <a href="https://www.nju.edu.cn/" target="_blank">Nanjing University</a> without entrance examination.
-                                </p>
-                            </li>
-                        </ul>
+
+                        <!-- Research Interests 单独提出 -->
+                        <div class="research-interests">
+                            <div class="ri-title">
+                                <i class="fas fa-microscope"></i>
+                                Research Interests
+                            </div>
+                            <div class="ri-tags">
+                                <span class="ri-tag">Machine Learning</span>
+                                <span class="ri-tag">Data Mining</span>
+                                <span class="ri-tag">Weakly Supervised Learning</span>
+                                <span class="ri-tag">Online Distribution Shift</span>
+                                <span class="ri-tag">Recommendation Systems</span>
+                            </div>
+                        </div>
+
+                        <!-- Timeline -->
+                         <!-- TODO: new work experience -->
+                        <div class="timeline">
+                            <!-- Work -->
+                            <div class="timeline-item">
+                                <div class="timeline-dot">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <div class="timeline-header">
+                                        <div class="timeline-org">
+                                            <a href="https://www.kuaishou.com/" target="_blank" rel="noopener noreferrer">Kuaishou</a>
+                                        </div>
+                                        <span class="timeline-date">2023 — Present</span>
+                                    </div>
+                                    <div class="timeline-role">Algorithm Engineer</div>
+                                    <div class="timeline-desc">
+                                        Developing cutting-edge algorithms in the realm of computational advertising.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- M.Sc. -->
+                            <div class="timeline-item">
+                                <div class="timeline-dot">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <div class="timeline-header">
+                                        <div class="timeline-org">
+                                            <a href="https://www.nju.edu.cn/" target="_blank" rel="noopener noreferrer">Nanjing University</a>
+                                            <span class="timeline-dept">· <a href="https://ai.nju.edu.cn/" rel="noopener noreferrer">School of Artificial Intelligence</a></span>
+                                        </div>
+                                        <span class="timeline-date">2020 — 2023</span>
+                                    </div>
+                                    <div class="timeline-role">M.Sc. in Computer Science</div>
+                                    <div class="timeline-desc">
+                                        Member of <a href="http://www.lamda.nju.edu.cn/baiy" target="_blank" rel="noopener noreferrer"><b>LAMDA</b></a> Group, supervised by Prof. <a href="https://cs.nju.edu.cn/zhouzh/" target="_blank" rel="noopener noreferrer"><b>Zhi-Hua Zhou</b></a>.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- B.Sc. -->
+                            <div class="timeline-item">
+                                <div class="timeline-dot">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <div class="timeline-header">
+                                        <div class="timeline-org">
+                                            <a href="https://www.buaa.edu.cn/" target="_blank" rel="noopener noreferrer">Beihang University</a>
+                                            <span class="timeline-dept">· <a href="https://scse.buaa.edu.cn/" rel="noopener noreferrer">School of Computer Science and Engineering</a></span>
+                                        </div>
+                                        <span class="timeline-date">2016 — 2020</span>
+                                    </div>
+                                    <div class="timeline-role">B.Sc. in Computer Science</div>
+                                    <div class="timeline-desc">
+                                        GPA: 3.86 (Top 1%). Admitted to Nanjing University for M.Sc. without entrance examination.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
 
                     <!-- Publications -->
                     <div class="section" id="Publications">
-                        <h2>Publications</h2>
-                        <ul>
-                            <li>
-                                Yu-Yang Qian*, <b>Yong Bai*</b>, Zhen-Yu Zhang, Peng Zhao, and Zhi-Hua Zhou. 
-                                <i>Handling New Class in Online Label Shift.</i>
-                                In: Proceedings of the 23rd IEEE International Conference on Data Mining (<b>ICDM 2023</b>), Shanghai, China, 2023. Page: to appear.
-                                <a href="https://www.lamda.nju.edu.cn/zhaop/publication/ICDM'23_NOLS.pdf" target="_blank">[PDF]</a> 
+                    <h2>Publications</h2>
+
+                    <!-- Preprint 区域 -->
+                    <div class="pub-category">
+                        <div class="pub-category-title">
+                            <i class="fas fa-flask"></i> Preprints
+                        </div>
+                        <ul class="pub-list preprint-list">
+                            <li class="pub-item preprint-item">
+                                <div class="pub-title">
+                                    EST: Towards Efficient Scaling Laws in Click-Through Rate Prediction via Unified Modeling
+                                </div>
+                                <div class="pub-meta">
+                                    <span class="venue-badge venue-preprint">Preprint 2026</span>
+                                    <div class="pub-links">
+                                        <a href="https://arxiv.org/abs/2602.10811" target="_blank" rel="noopener noreferrer" class="btn-link btn-arxiv">
+                                            <i class="fas fa-book"></i> ArXiv
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pub-authors">
+                                    Mingyang Liu*, <span class="pub-me">Yong Bai*</span>, Zhangming Chan, Sishuo Chen, Xiang-Rong Sheng, Han Zhu, Jian Xu, Xinyang Chen.
+                                </div>
                             </li>
-                            <li>
-                                Zhangming Chan, Yu Zhang, Shuguang Han, <b>Yong Bai</b>, Xiang-Rong Sheng, Siyuan Lou, Jiacen Hu, Baolin Liu, Yuning Jiang, Jian Xu, Bo Zheng. 
-                                <i>Capturing Conversion Rate Fluctuation during Sales Promotions: A Novel Historical Data Reuse Approach</i>. 
-                                In: Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<b>KDD 2023</b>), Long Beach, California, 2023. Page: 3774-3784. 
-                                <a href="https://arxiv.org/abs/2305.12837" target="_blank">[ArXiv]</a> 
+
+                            <li class="pub-item preprint-item">
+                                <div class="pub-title">
+                                    VQL: An End-to-End Context-Aware Vector Quantization Attention for Ultra-Long User Behavior Modeling
+                                </div>
+                                <div class="pub-meta">
+                                    <span class="venue-badge venue-preprint">Preprint 2025</span>
+                                    <div class="pub-links">
+                                        <a href="https://arxiv.org/abs/2508.17125" target="_blank" rel="noopener noreferrer" class="btn-link btn-arxiv">
+                                            <i class="fas fa-book"></i> ArXiv
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pub-authors">
+                                    Kaiyuan Li, Yongxiang Tang, Yanhua Cheng, <span class="pub-me">Yong Bai</span>, Yanxiang Zeng, Chao Wang, Xialong Liu, Peng Jiang.
+                                </div>
                             </li>
-                            <li>
-                                <b>Yong Bai*</b>, Yu-Jie Zhang*, Peng Zhao, Masashi Sugiyama, and Zhi-Hua Zhou. 
-                                <i>Adapting to Online Label Shift with Provable Guarantees</i>. 
-                                In: Advances in Neural Information Processing Systems 35 (<b>NeurIPS 2022</b>), New Orleans, Louisiana, 2022. Page: 29960-29974. 
-                                <a href="https://arxiv.org/abs/2207.02121" target="_blank">[ArXiv]</a>
-                                <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/c19c4def293b6a63db1ff27143dd4f10-Paper-Conference.pdf" target="_blank">[PDF]</a>
-                                <a href="http://www.lamda.nju.edu.cn/code_ATLAS.ashx" target="_blank">[Code]</a>
+
+                            <li class="pub-item preprint-item">
+                                <div class="pub-title">
+                                    BBQRec: Behavior-Bind Quantization for Multi-Modal Sequential Recommendation
+                                </div>
+                                <div class="pub-meta">
+                                    <span class="venue-badge venue-preprint">Preprint 2025</span>
+                                    <div class="pub-links">
+                                        <a href="https://arxiv.org/abs/2504.06636" target="_blank" rel="noopener noreferrer" class="btn-link btn-arxiv">
+                                            <i class="fas fa-book"></i> ArXiv
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pub-authors">
+                                    Kaiyuan Li, Rui Xiang, <span class="pub-me">Yong Bai</span>, Yongxiang Tang, Yanhua Cheng, Xialong Liu, Peng Jiang, Kun Gai.
+                                </div>
                             </li>
-                            <li>
-                                <b>Yong Bai</b>, Yuan-Fang Guo, Jin-Jie Wei, Lin Lu, Rui Wang and Yun-Hong Wang.
-                                <a href="https://ieeexplore.ieee.org/document/9190892" target="_blank"><i>Fake Generated Painting Detection via Frequency Analysis</i>.</a> 
-                                In: 2020 IEEE International Conference on Image Processing (<b>ICIP 2020</b>), Abu Dhabi, United Arab Emirates, 2020. Page: 1256-1260. 
-                                <a href="https://arxiv.org/abs/2003.02467" target="_blank">[ArXiv]</a>
+
+                            <li class="pub-item preprint-item">
+                                <div class="pub-title">
+                                    CHIME: A Compressive Framework for Holistic Interest Modeling
+                                </div>
+                                <div class="pub-meta">
+                                    <span class="venue-badge venue-preprint">Preprint 2025</span>
+                                    <div class="pub-links">
+                                        <a href="https://arxiv.org/abs/2504.06780" target="_blank" rel="noopener noreferrer" class="btn-link btn-arxiv">
+                                            <i class="fas fa-book"></i> ArXiv
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pub-authors">
+                                    <span class="pub-me">Yong Bai</span>, Rui Xiang, Kaiyuan Li, Yongxiang Tang, Yanhua Cheng, Xialong Liu, Peng Jiang, Kun Gai.
+                                </div>
                             </li>
                         </ul>
                     </div>
 
+                    <!-- 已发表论文区域 -->
+                    <div class="pub-category">
+                        <div class="pub-category-title">
+                            <i class="fas fa-award"></i> Published Papers
+                        </div>
+                        <ul class="pub-list">
+                            <!-- Paper 1 -->
+                            <li class="pub-item">
+                                <div class="pub-title">
+                                    Handling New Class in Online Label Shift
+                                </div>
+                                <div class="pub-meta">
+                                    <span class="venue-badge">ICDM 2023</span>
+                                    <div class="pub-links">
+                                        <a href="https://www.lamda.nju.edu.cn/zhaop/publication/ICDM'23_NOLS.pdf" target="_blank" rel="noopener noreferrer" class="btn-link btn-pdf">
+                                            <i class="fas fa-file-pdf"></i> PDF
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pub-venue-detail">
+                                    Proceedings of the 23rd IEEE International Conference on Data Mining, Shanghai, China, 2023.
+                                </div>
+                                <div class="pub-authors">
+                                    Yu-Yang Qian*, <span class="pub-me">Yong Bai*</span>, Zhen-Yu Zhang, Peng Zhao, and Zhi-Hua Zhou.
+                                </div>
+                            </li>
+
+                            <!-- Paper 2 -->
+                            <li class="pub-item">
+                                <div class="pub-title">
+                                    Capturing Conversion Rate Fluctuation during Sales Promotions: A Novel Historical Data Reuse Approach
+                                </div>
+                                <div class="pub-meta">
+                                    <span class="venue-badge">KDD 2023</span>
+                                    <div class="pub-links">
+                                        <a href="https://arxiv.org/abs/2305.12837" target="_blank" rel="noopener noreferrer" class="btn-link btn-arxiv">
+                                            <i class="fas fa-book"></i> ArXiv
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pub-venue-detail">
+                                    Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, Long Beach, California, 2023. 
+                                    <!-- Page: 3774-3784. -->
+                                </div>
+                                <div class="pub-authors">
+                                    Zhangming Chan, Yu Zhang, Shuguang Han, <span class="pub-me">Yong Bai</span>, Xiang-Rong Sheng, Siyuan Lou, Jiacen Hu, Baolin Liu, Yuning Jiang, Jian Xu, Bo Zheng.
+                                </div>
+                            </li>
+
+                            <!-- Paper 3 -->
+                            <li class="pub-item">
+                                <div class="pub-title">
+                                    Adapting to Online Label Shift with Provable Guarantees
+                                </div>
+                                <div class="pub-meta">
+                                    <span class="venue-badge venue-top">NeurIPS 2022</span>
+                                    <div class="pub-links">
+                                        <a href="https://arxiv.org/abs/2207.02121" target="_blank" rel="noopener noreferrer" class="btn-link btn-arxiv">
+                                            <i class="fas fa-book"></i> ArXiv
+                                        </a>
+                                        <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/c19c4def293b6a63db1ff27143dd4f10-Paper-Conference.pdf" target="_blank" rel="noopener noreferrer" class="btn-link btn-pdf">
+                                            <i class="fas fa-file-pdf"></i> PDF
+                                        </a>
+                                        <a href="http://www.lamda.nju.edu.cn/code_ATLAS.ashx" target="_blank" rel="noopener noreferrer" class="btn-link btn-code">
+                                            <i class="fas fa-code"></i> Code
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pub-venue-detail">
+                                    Advances in Neural Information Processing Systems 35, New Orleans, Louisiana, 2022. 
+                                    <!-- Page: 29960-29974. -->
+                                </div>
+                                <div class="pub-authors">
+                                    <span class="pub-me">Yong Bai*</span>, Yu-Jie Zhang*, Peng Zhao, Masashi Sugiyama, and Zhi-Hua Zhou.
+                                </div>
+                            </li>
+
+                            <!-- Paper 4 -->
+                            <li class="pub-item">
+                                <div class="pub-title">
+                                    Fake Generated Painting Detection via Frequency Analysis
+                                </div>
+                                <div class="pub-meta">
+                                    <span class="venue-badge">ICIP 2020</span>
+                                    <div class="pub-links">
+                                        <a href="https://arxiv.org/abs/2003.02467" target="_blank" rel="noopener noreferrer" class="btn-link btn-arxiv">
+                                            <i class="fas fa-book"></i> ArXiv
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pub-venue-detail">
+                                    2020 IEEE International Conference on Image Processing, Abu Dhabi, United Arab Emirates, 2020. 
+                                    <!-- Page: 1256-1260. -->
+                                </div>
+                                <div class="pub-authors">
+                                    <span class="pub-me">Yong Bai</span>, Yuan-Fang Guo, Jin-Jie Wei, Lin Lu, Rui Wang, and Yun-Hong Wang.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <p class="footnote">* denotes equal contribution.</p>
+                </div>
+
+    
                     <!-- Internship Experience -->
                     <div class="section" id="Experience">
-                        <h2>Intership Experience</h2>
-                        <ul>
-                            <li>
-                                <p><b>2022</b>. I worked as a research intern in Alimama BU, Alibaba Group. I mainly focus on improving conversion rate (CVR) prediction under distribution shift for advertising systems.</p>
+                        <h2>Internship Experience</h2>
+                        <ul class="exp-list">
+                            <li class="exp-item">
+                                <div class="exp-header">
+                                    <div class="exp-org">
+                                        <i class="fas fa-building"></i>
+                                        <a href="https://www.alibabagroup.com/" target="_blank" rel="noopener noreferrer">Alibaba Group</a>
+                                        <span class="exp-dept">· Alimama BU</span>
+                                    </div>
+                                    <span class="exp-date">2022</span>
+                                </div>
+                                <div class="exp-role">Research Intern</div>
+                                <div class="exp-desc">
+                                    Focused on improving conversion rate (CVR) prediction under distribution shift for advertising systems.
+                                </div>
                             </li>
-                            <li>
-                                <p><b>2019-2020</b>. I had an internship in the
-                                    <a href="http://irip.buaa.edu.cn/index.htm" target="_blank">IRIP Lab</a>, Beihang University.
-                                    I did research on image forgery detection and finished my graduation project under the supervision of Assistant Professor <a href="https://irip.buaa.edu.cn/andyguo/index.html" target="_blank">Yuanfang Guo</a>.
-                                </p>
+
+                            <li class="exp-item">
+                                <div class="exp-header">
+                                    <div class="exp-org">
+                                        <i class="fas fa-flask"></i>
+                                        <a href="http://irip.buaa.edu.cn/index.htm" target="_blank" rel="noopener noreferrer">IRIP Lab</a>
+                                        <span class="exp-dept">· Beihang University</span>
+                                    </div>
+                                    <span class="exp-date">2019 — 2020</span>
+                                </div>
+                                <div class="exp-role">Research Intern · Advisor: <a href="https://irip.buaa.edu.cn/andyguo/index.html" target="_blank" rel="noopener noreferrer">Prof. Yuanfang Guo</a></div>
+                                <div class="exp-desc">
+                                    Conducted research on image forgery detection and completed graduation project.
+                                </div>
                             </li>
-                            <li>
-                                <p><b>2019</b>. I had an internship in the KEG Lab, Tsinghua University. I participated in the development of <a href="https://www.aminer.cn/" target="_blank">AMiner</a>.</p>
+
+                            <li class="exp-item">
+                                <div class="exp-header">
+                                    <div class="exp-org">
+                                        <i class="fas fa-flask"></i>
+                                        <a href="https://keg.cs.tsinghua.edu.cn/home" target="_blank" rel="noopener noreferrer">KEG Lab</a>
+                                        <span class="exp-dept">· Tsinghua University</span>
+                                    </div>
+                                    <span class="exp-date">2019</span>
+                                </div>
+                                <div class="exp-role">Research Intern</div>
+                                <div class="exp-desc">
+                                    Participated in the development of <a href="https://www.aminer.cn/" target="_blank" rel="noopener noreferrer">AMiner</a>.
+                                </div>
                             </li>
-                            <li>
-                                <p><b>2018</b>. I had an internship in <a href="https://www.sensetime.com/en" target="_blank">SenseTime</a>. I did research on clustering algorithm in new retail. Besides, I also developed a camera calibration tool.</p>
+
+                            <li class="exp-item">
+                                <div class="exp-header">
+                                    <div class="exp-org">
+                                        <i class="fas fa-building"></i>
+                                        <a href="https://www.sensetime.com/en" target="_blank" rel="noopener noreferrer">SenseTime</a>
+                                    </div>
+                                    <span class="exp-date">2018</span>
+                                </div>
+                                <div class="exp-role">Algorithm Engineer Intern</div>
+                                <div class="exp-desc">
+                                    Researched clustering algorithms in new retail. Developed a camera calibration tool.
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -180,85 +449,154 @@
                     <!-- Teaching Assistant -->
                     <div class="section" id="TA">
                         <h2>Teaching Assistant</h2>
-                        <ul>
-                            <li>
-                                <p>Introduction to Robotics. (Spring, 2021)</p>
+                        <ul class="ta-list">
+                            <li class="ta-item">
+                                <div class="ta-info">
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    <span class="ta-course">Introduction to Robotics</span>
+                                </div>
+                                <span class="ta-date">Spring 2021</span>
                             </li>
-                            <li>
-                                <p>Software Engineering. (Spring, 2020)</p>
+                            <li class="ta-item">
+                                <div class="ta-info">
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    <span class="ta-course">Software Engineering</span>
+                                </div>
+                                <span class="ta-date">Spring 2020</span>
                             </li>
-                            <li>
-                                <p>Computer Organization. (Fall, 2018; As a member of the <a href="http://scse.buaa.edu.cn/bkspy/bkspy/S_T_A_Rjftdbps_.htm" target="_blank">S.T.A.R</a> teaching assistant team.)</p>
+                            <li class="ta-item">
+                                <div class="ta-info">
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    <span class="ta-course">Computer Organization</span>
+                                    <span class="ta-note">
+                                        · Member of <a href="http://scse.buaa.edu.cn/bkspy/bkspy/S_T_A_Rjftdbps_.htm" target="_blank" rel="noopener noreferrer">S.T.A.R</a> team
+                                    </span>
+                                </div>
+                                <span class="ta-date">Fall 2018</span>
                             </li>
-                            <li>
-                                <p>Basic Knowledge of University Computer. (Spring, 2018)</p>
+                            <li class="ta-item">
+                                <div class="ta-info">
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    <span class="ta-course">Basic Knowledge of University Computer</span>
+                                </div>
+                                <span class="ta-date">Spring 2018</span>
                             </li>
                         </ul>
                     </div>
 
+
                     <!-- Awards & Honors -->
+                     <!-- Add new awards -->
                     <div class="section" id="Awards">
-                        <h2>Awards &amp; Honors</h2>
-                        <ul>
-                            <li>
-                                <p>2023, Outstanding Graduate of Nanjing University.</p>
+                    <h2>Awards &amp; Honors</h2>
+
+                    <!-- 重要奖项 -->
+                    <div class="award-group">
+                        <div class="award-group-title">
+                            <i class="fas fa-trophy"></i> Key Awards
+                        </div>
+                        <ul class="award-list">
+                            <li class="award-item award-highlight">
+                                <div class="award-years">
+                                    <span class="year-tag">2017</span>
+                                    <span class="year-tag">2018</span>
+                                    <span class="year-tag">2022</span>
+                                </div>
+                                <div class="award-content">
+                                    <span class="award-name">National Scholarship</span>
+                                    <!-- <span class="award-badge">× 3</span> -->
+                                </div>
                             </li>
-                            <li>
-                                <p>2023, Excellent Student of Nanjing University.</p>
-                            </li>
-                            <li>
-                                <p>2022, National Scholarship.</p>
-                            </li>
-                            <li>
-                                <p>2021, First Place, Commercial track of Sinovation Ventures DeeCamp Contest. (<b>Team captain</b>)</p>
-                            </li>
-                            <li>
-                                <p>2020, Outstanding Graduate of Beihang University.</p>
-                            </li>
-                            <li>
-                                <p>2019, First Prize, the 10th "Lanqiao Cup" Provincial Competition (Group A, C/C++ Group).</p>
-                            </li>
-                            <li>
-                                <p>2019, First Prize, the 29th "Feng Ru Cup" Competition of Academic and Technological Works. (<b>Team captain</b>)</p>
-                            </li>
-                            <li>
-                                <p>2017, 2018, National Scholarship.</p>
-                            </li>
-                            <li>
-                                <p>2017, 2018, Excellent Student of Beihang University.</p>
+                            <li class="award-item award-highlight">
+                                <div class="award-years">
+                                    <span class="year-tag">2024</span>
+                                </div>
+                                <div class="award-content">
+                                    <span class="award-name">Outstanding Master's Thesis Award</span>
+                                    <span class="award-org">Jiangsu Association of Artificial Intelligence (<a href="https://www.jsai.org.cn/" target="_blank" rel="noopener noreferrer">JSAI</a>)</span>
+                                </div>
                             </li>
                         </ul>
                     </div>
+
+                    <!-- 荣誉称号 -->
+                    <div class="award-group">
+                        <div class="award-group-title">
+                            <i class="fas fa-medal"></i> Honors
+                        </div>
+                        <ul class="award-list">
+                            <li class="award-item">
+                                <div class="award-years">
+                                    <span class="year-tag">2020</span>
+                                    <span class="year-tag">2023</span>
+                                </div>
+                                <div class="award-content">
+                                    <span class="award-name">Outstanding Graduate</span>
+                                    <span class="award-org">Beihang University (2020), Nanjing University (2023)</span>
+                                </div>
+                            </li>
+                            <li class="award-item">
+                                <div class="award-years">
+                                    <span class="year-tag">2017</span>
+                                    <span class="year-tag">2018</span>
+                                    <span class="year-tag">2023</span>
+                                </div>
+                                <div class="award-content">
+                                    <span class="award-name">Excellent Student</span>
+                                    <span class="award-org">Beihang University (2017, 2018), Nanjing University (2023)</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
 
                     <!-- Hobbies -->
                     <div class="section" id="Hobbies">
                         <h2>Hobbies</h2>
-                        <ul class="custom-list">
-                            <li>
-                                <img src="index_files/icons/volunteer.svg" alt="Volunteer">
-                                <p><b>Volunteering.</b> I used to be a senior member of the department of voluntry teaching, Bluesky Volunteers' Assocaition, Beihang University.</p>
-                            </li>
-                            <li>
-                                <img src="index_files/icons/edit.svg" alt="Editing">
-                                <p><b>Editing.</b> I used to be the editor of two wechat official accounts of Beihang University (i.e., 微言航语, 知心助航). Currently I am an editor of "LAMDA Communication", a quarterly of LAMDA Group.</p>
-                            </li>
-                            <li>
-                                <img src="index_files/icons/volleyball.svg" alt="Volleyball">
-                                <p><b>Volleyball.</b></p>
-                            </li>
-                            <li>
-                                <img src="index_files/icons/frisbee.svg" alt="Frisbee">
-                                <p><b>Frisbee.</b></p>
-                            </li>
-                            <li>
+                        <!-- 纯列举的爱好：网格卡片 -->
+                        <div class="hobby-grid">
+                            <div class="hobby-card">
+                                <img src="index_files/icons/go.svg" alt="Go Game">
+                                <span>Go Game</span>
+                            </div>
+                            <div class="hobby-card">
                                 <img src="index_files/icons/book.svg" alt="Reading">
-                                <p><b>Reading books.</b></p>
+                                <span>Reading</span>
+                            </div>
+                            <div class="hobby-card">
+                                <img src="index_files/icons/frisbee.svg" alt="Frisbee">
+                                <span>Frisbee</span>
+                            </div>
+                            <div class="hobby-card">
+                                <img src="index_files/icons/volleyball.svg" alt="Volleyball">
+                                <span>Volleyball</span>
+                            </div>                                                                          
+                        </div>
+                        
+                        <!-- 有详细描述的爱好 -->
+                        <ul class="hobby-detail-list">
+                            <li class="hobby-detail-item">
+                                <img src="index_files/icons/volunteer.svg" alt="Volunteer">
+                                <div>
+                                    <div class="hobby-name">Volunteering</div>
+                                    <div class="hobby-desc">
+                                        Senior member of the Department of Voluntary Teaching, Bluesky Volunteers' Association, Beihang University.
+                                    </div>
+                                </div>
                             </li>
-                            <li>
-                                <img src="index_files/icons/photograph.svg" alt="Photography">
-                                <p><b>Photographing.</b></p>
+                            <li class="hobby-detail-item">
+                                <img src="index_files/icons/edit.svg" alt="Editing">
+                                <div>
+                                    <div class="hobby-name">Editing</div>
+                                    <div class="hobby-desc">
+                                        Editor of two official WeChat accounts of Beihang University (微言航语, 知心助航). <br/>Editor of <i>LAMDA Communication</i>, a quarterly of LAMDA Group.
+                                    </div>
+                                </div>
                             </li>
                         </ul>
+
+                        
                     </div>
 
                     <!-- Back to Top -->
@@ -278,9 +616,6 @@
     </div>
 
     <!-- Scripts -->
-    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/25705e37ff.js" crossorigin="anonymous"></script>
     <script type="text/javascript">
         // Email obfuscation
         var email1 = "onvlbattvttyr@tznvy.pbz";
@@ -292,5 +627,9 @@
         };
         document.getElementById("email").innerHTML = "Email: " + email1.rot13() + " or " + email2.rot13();
     </script>
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/25705e37ff.js" crossorigin="anonymous"></script>
+    
 </body>
 </html>
