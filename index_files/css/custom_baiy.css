@@ -84,6 +84,12 @@ body {
     transform: translateX(5px);
 }
 
+.menu-item a.active {
+    background: var(--primary-color);
+    color: #ffffff;
+    font-weight: 600;
+}
+
 .menu-item a::after {
     content: ''; 
     position: absolute; 
