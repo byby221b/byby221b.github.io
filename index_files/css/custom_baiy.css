@@ -95,134 +95,6 @@ body {
     width 0.3s;
 }
 
-.menu-item .icon {
-    display: inline-block;
-    margin: 0 8px;
-    transition: transform 0.3s ease;
-}
-
-.menu-item .icon:hover {
-    transform: scale(1.2);
-}
-
-.menu-item .icon img {
-    width: 28px !important;
-    height: 28px;
-    transition: filter 0.3s ease;
-}
-
-.menu-item .icon:hover img {
-    filter: brightness(0.8);
-}
-
-/* ========== Social Links - Tooltip版（推荐） ========== */
-.social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 18px;
-    padding: 24px 0;
-    margin-top: 24px;
-    border-top: 1px solid var(--border-color);
-}
-
-.social-links a {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 46px;
-    height: 46px;
-    border-radius: 50%;
-    background: var(--bg-light);
-    border: 2px solid transparent;
-    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-/* 悬停效果 */
-.social-links a:hover {
-    background: var(--primary-color);
-    border-color: var(--accent-color);
-    transform: translateY(-5px) scale(1.1);
-    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.35);
-}
-
-/* 图标样式 */
-.social-links a img {
-    width: 24px;
-    height: 24px;
-    transition: filter 0.3s ease;
-}
-
-.social-links a:hover img {
-    filter: brightness(0) invert(1);
-}
-
-/* Tooltip 气泡 */
-.social-links a::after {
-    content: attr(title);          /* 读取 title 属性作为气泡文字 */
-    position: absolute;
-    bottom: calc(100% + 10px);     /* 气泡在图标上方 */
-    left: 50%;
-    transform: translateX(-50%) translateY(5px);
-    padding: 6px 12px;
-    background: var(--text-primary);
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 600;
-    white-space: nowrap;
-    border-radius: 6px;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
-    pointer-events: none;
-    z-index: 10;
-}
-
-/* Tooltip 小三角箭头 */
-.social-links a::before {
-    content: '';
-    position: absolute;
-    bottom: calc(100% + 4px);
-    left: 50%;
-    transform: translateX(-50%);
-    border: 5px solid transparent;
-    border-top-color: var(--text-primary);
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
-    pointer-events: none;
-    z-index: 10;
-}
-
-/* 悬停时显示 Tooltip */
-.social-links a:hover::after,
-.social-links a:hover::before {
-    opacity: 1;
-    visibility: visible;
-    transform: translateX(-50%) translateY(0);
-}
-
-/* 为不同平台设置独立悬停颜色（可选） */
-.social-links a[title="Github"]:hover {
-    background: #24292e;
-    border-color: #24292e;
-    box-shadow: 0 8px 25px rgba(36, 41, 46, 0.35);
-}
-
-.social-links a[title="LinkedIn"]:hover {
-    background: #0077b5;
-    border-color: #0077b5;
-    box-shadow: 0 8px 25px rgba(0, 119, 181, 0.35);
-}
-
-.social-links a[title="LAMDA Homepage"]:hover {
-    background: var(--accent-color);
-    border-color: var(--accent-color);
-    box-shadow: 0 8px 25px rgba(99, 102, 241, 0.35);
-}
-
-
 
 #tracker {
     width: 100%;
@@ -283,12 +155,6 @@ body {
 
 
 
-
-/* Profile Section */
-
-#imgbox img:hover {
-    transform: scale(1.02);
-}
 
 /* ========================================
    Profile Card - 名片式布局
@@ -1504,6 +1370,11 @@ body {
     font-size: 14px;
 }
 
+.back-to-top-wrapper {
+    text-align: right;
+    margin: 30px 0;
+}
+
 /* Back to Top Button */
 .back-to-top {
     display: inline-block;
@@ -1562,23 +1433,6 @@ body {
     /* 隐藏访问地图 */
     #tracker {
         display: none;
-    }
-
-    /* 社交图标缩小 */
-    .social-links {
-        padding: 12px 0;
-        margin-top: 12px;
-        gap: 12px;
-    }
-
-    .social-links a {
-        width: 38px;
-        height: 38px;
-    }
-
-    .social-links a img {
-        width: 18px;
-        height: 18px;
     }
 
     #layout-content {
@@ -1806,6 +1660,10 @@ body {
     .award-years {
         min-width: auto;
     }
+}
+
+@media print {
+    #layout-menu { display: none; }
 }
 
 @media (hover: none) {
