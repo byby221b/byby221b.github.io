@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://byby221b.github.io/sitemap.xml
