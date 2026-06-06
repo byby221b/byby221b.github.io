@@ -1215,7 +1215,78 @@ body {
     }
 }
 
+/* ========================================
+   Open Source Projects
+   ======================================== */
 
+.project-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project-item {
+    background: var(--bg-light);
+    border-radius: 12px;
+    padding: 22px 28px;
+    margin: 16px 0;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.3s ease;
+}
+
+.project-item:hover {
+    transform: translateX(6px);
+    box-shadow: var(--shadow-md);
+    background: var(--bg-white);
+}
+
+#Projects .project-item {
+    padding: 22px 28px !important;
+}
+
+#Projects .project-item::before {
+    content: none !important;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.project-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.project-name i {
+    color: var(--accent-color);
+    font-size: 16px;
+}
+
+.project-links {
+    flex-shrink: 0;
+}
+
+.project-desc {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+    .project-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
 
 /* Hobbies Section */
 
