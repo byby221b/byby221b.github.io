@@ -1,0 +1,37 @@
+# Yong Bai (白勇)
+
+> Algorithm Engineer at Alibaba. M.Sc. from Nanjing University (LAMDA Group), B.Sc. from Beihang University.
+
+## About
+
+Yong Bai is an Algorithm Engineer at Alibaba, focused on large-scale computational advertising algorithms for Taobao Display Advertising (Alimama). Previously worked at Kuaishou (2023-2025) on computational advertising. He received his M.Sc. in Computer Science from Nanjing University, where he was a member of the LAMDA Group supervised by Prof. Zhi-Hua Zhou, and his B.Sc. from Beihang University (GPA: 3.86, Top 1%).
+
+## Research Interests
+
+- Machine Learning
+- Data Mining
+- Weakly Supervised Learning
+- Online Distribution Shift
+- Recommendation Systems
+- Click-Through Rate Prediction
+
+## Selected Publications
+
+- MAC: A Conversion Rate Prediction Benchmark Featuring Labels Under Multiple Attribution Mechanisms (KDD 2026)
+- EST: Towards Efficient Scaling Laws in Click-Through Rate Prediction via Unified Modeling (KDD 2026)
+- Handling New Class in Online Label Shift (ICDM 2023)
+- Capturing Conversion Rate Fluctuation during Sales Promotions: A Novel Historical Data Reuse Approach (KDD 2023)
+- Adapting to Online Label Shift with Provable Guarantees (NeurIPS 2022)
+- Fake Generated Painting Detection via Frequency Analysis (ICIP 2020)
+
+## Open Source Projects
+
+- Paper-Guanzhi: A curated collection of the most influential CS papers, including foundational works and Test-of-Time Award papers from top conferences. https://github.com/byby221b/Paper-Guanzhi
+- Awesome-CTR-Scaling: A curated paper list on scaling up CTR prediction and ranking models for industrial recommendation systems. https://github.com/byby221b/Awesome-CTR-Scaling
+
+## Links
+
+- Homepage: https://byby221b.github.io/
+- Google Scholar: https://scholar.google.com/citations?user=F_QRciEAAAAJ
+- GitHub: https://github.com/byby221b
+- LAMDA Page: http://www.lamda.nju.edu.cn/baiy/
