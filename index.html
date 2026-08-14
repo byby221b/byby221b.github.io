@@ -86,7 +86,7 @@
                     <div class="menu-item"><a href="#Projects">Open Source</a></div>
                     <div class="menu-item"><a href="#Hobbies">Hobbies</a></div>
                     
-                    <div class="menu-item">
+                    <div class="menu-item tracker-item">
                         <a href="https://clustrmaps.com/site/1braw" title="Visit tracker" target="_blank">
                             <img src="//www.clustrmaps.com/map_v2.png?d=UCAouh10GXoY9HhnmzxJYZe_KYrLrZkuvtzdLuyofRE&cl=ffffff" id="tracker" alt="Visit Tracker">
                         </a>
@@ -100,14 +100,20 @@
                     <!-- Title -->
                     <div class="row">
                         <div class="col-sm-12 col-md-12" id="toptitle">
-                            <h1>Welcome to Yong Bai's Homepage :-)</h1>
+                            <h1>Yong Bai <span class="title-cn">白勇</span></h1>
                         </div>
                     </div>
 
                     <!-- Profile Card -->
                     <div class="profile-card">
                         <div class="profile-left">
-                            <img src="./index_files/imgs/Profile.jpg" alt="Yong Bai" class="profile-photo">
+                            <picture class="profile-picture">
+                                <source
+                                    type="image/webp"
+                                    srcset="./index_files/imgs/Profile-256.webp 256w, ./index_files/imgs/Profile-512.webp 512w"
+                                    sizes="(max-width: 768px) 124px, 180px">
+                                <img src="./index_files/imgs/Profile.jpg" alt="Yong Bai" class="profile-photo" width="180" height="180">
+                            </picture>
                             <div class="profile-social">
                                 <a href="https://scholar.google.com/citations?user=F_QRciEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener noreferrer" title="Google Scholar">
                                     <i class="fas fa-graduation-cap"></i>
@@ -121,7 +127,6 @@
                             </div>
                         </div>
                         <div class="profile-right">
-                            <span class="chinese-name">白勇</span>
                             <div class="info-lines">
                                 <p class="info-line">
                                     <i class="fas fa-briefcase"></i>
@@ -146,7 +151,7 @@
                     </div>
 
                     <div class="info-cta">
-                        If you would like to befriend me, please don't hesitate to send me an email! :-)
+                        Feel free to reach out by email.
                     </div>
                    <!-- Biography -->
                     <div class="section" id="about-me">
